@@ -1,5 +1,5 @@
 function toggleTheme() {
-    const html = document.documentElement;
-    html.classList.toggle('dark-mode');
-    html.classList.toggle('light-mode');
+    const root = document.getElementById('root');
+    root.classList.toggle('dark-mode');
+    root.classList.toggle('light-mode');
 }
